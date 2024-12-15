@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy BirthDay Luluuu</title>
+    <link rel="icon" href="assets/dinosaur.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="content">
+        <!-- Halaman 1 -->
+        <div class="page" id="page-1">
+            <h1>HBD Luluuu! 🎉</h1>
+            <img src="assets/cat-cute.gif" class="page-icon">
+            <p>Semoga hari Lulu vibes-nya bahagiaaa banget, penuh kesehatan dan senyum lebar kayak kucing di GIF ini. 🐱✨</p>
+            <button onclick="nextPage()">Gas Terus!</button>
+        </div>
+
+        <!-- Halaman 2 -->
+        <div class="page" id="page-2" style="display:none;">
+            <h1>Jaga Mood Lulu Tetap On Fire! 🔥</h1>
+            <img src="assets/hbd-sayangkuuuu.gif" class="page-icon" alt="Monitor Jantung">
+            <p>Kebahagiaan Lulu tuh kayak detak jantung: penting banget, nggak boleh stop. Jadi keep shining and stay happy always! 💖</p>
+            <button onclick="nextPage()">Lanjut, dong!</button>
+        </div>
+
+        <!-- Halaman 3 -->
+        <div class="page hidden" id="page-3">
+            <h1>Dream Big, Girl! 🌟</h1>
+            <img src="assets/cute-please.gif" class="page-icon">
+            <p>Semoga mimpi-mimpi Lulu jadi kenyataan semua, dan hidup Lulu kayak playlist favorit: full of hits! 🥰✨</p>
+            <button class="btn" onclick="nextPage()">Next aja yuk!</button>
+        </div>
+
+        <!-- Halaman 4 -->
+        <div class="page hidden" id="page-4">
+            <h1>Lulu Itu Rare Banget! 🦄</h1>
+            <img src="assets/cats-white-cat.gif" class="page-icon">
+            <p>Kebahagiaan Lulu tuh prioritas banget buat aku, kayak lagu yang nggak pernah aku skip. Keep being awesome! 😘</p>
+            <button class="btn" onclick="nextPage()">Next lagi dong!</button>
+        </div>
+
+        <!-- Halaman 5 -->
+        <div class="page hidden" id="page-5">
+            <h1>Seneng-Seneng Dulu, Kuy! 🥳</h1>
+            <img src="assets/mochi-cat-chibi-cat_1.gif" class="page-icon">
+            <p>Semoga ulang tahun Lulu ini bener-bener jadi awal dari semua mimpi-mimpi Lulu yang menjadi kenyataan. Jangan lupa senyum ya! 😍✨</p>
+            <button class="btn" onclick="nextPage()">Lanjut terus!</button>
+        </div>
+
+        <!-- Halaman 6 -->
+        <div class="page hidden" id="page-6">
+            <h1>Lulu Itu Obat Capek Aku ❤️</h1>
+            <img src="assets/love-cutie.gif" class="page-icon">
+            <p>Kebahagiaan Lulu tuh bikin hari-hari aku jadi full energy. Semangat terus ya, Lulu! 💕</p>
+            <button class="btn" onclick="nextPage()">Gaspol lagi!</button>
+        </div>
+
+        <!-- Halaman 7 -->
+        <div class="page hidden" id="page-7">
+            <h1>Happy Lulu, Happy Aku! 😍</h1>
+            <img src="assets/okay-nod.gif" class="page-icon">
+            <p>Ngeliat Lulu seneng tuh udah kayak nonton sunset: indah banget dan nggak pernah ngebosenin. Keep smiling ya! 🥰</p>
+            <button class="btn" onclick="nextPage()">Yuk, yuk, next!</button>
+        </div>
+
+        <div class="page hidden" id="page-8">
+            <h1>Aku Ada Surprise Nih! 🎁</h1>
+            <img src="assets/peach-goma-love-pat-head-cheek.gif" class="page-icon">
+            <p>Spesial banget buat Lulu! Klik aja tombolnya, siapa tau bikin Lulu makin happy. 😊</p>
+            <button class="btn" onclick="redirectToFlower()">Coba klik, yuk!</button>
+        </div>
+
+        <script src="scripts.js"></script>
+</body>
+
+</html>
